@@ -1,0 +1,28 @@
+{
+  "name": "example-server",
+  "version": "1.0.0",
+  "description": "the server for Example",
+  "main": "index.ts",
+  "scripts": {
+    "db:create": "ts-node ./scripts/db/create-local-db.ts",
+    "db:start": "docker-compose -f docker-compose.yaml up --no-start && docker-compose -f ./docker-compose.yaml start postgres"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "ScrappyCoco",
+    "scraper",
+    "scraping",
+    "web-scraping",
+    "webscraping",
+    "masterscraper",
+    "scrappy"
+  ],
+  "author": "Koren Ben-Ezri",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "example-server",
+  "version": "1.0.0",
+  "description": "the server for Example",
+  "main": "index.ts",
+  "scripts": {
+    "db:migrate:list": "./node_modules/.bin/knex migrate:list",
+    "db:migrate:latest": "./node_modules/.bin/knex migrate:latest",
+    "dev": "db:migrate:latest && cross-env NODE_ENV=dev nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "ScrappyCoco",
+    "scraper",
+    "scraping",
+    "web-scraping",
+    "webscraping",
+    "masterscraper",
+    "scrappy"
+  ],
+  "author": "Koren Ben-Ezri",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {}
+}
